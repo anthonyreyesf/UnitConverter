@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+header{
+	text-align: center;
+}
+
+body{
+	width: 1200px;
+	margin: 0 auto;
+	font-family: Roboto;
+	background-color: rgb(242, 243, 244);
+}
+
+.button{
+	padding: 10px 25px;
+	background-color: rgb(48, 122, 39);
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color: rgb(72, 168, 60);
+}
+
+.converter{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	margin: 25px auto;
+}

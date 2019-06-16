@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 2 for Anthony Reyes</title>
+	<script src="js/custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header>
+		<h1>
+			Assignment 2
+		</h1>
+		<h1>
+			Anthony Reyes
+		</h1>
+		<h1>
+			Instructor: Maninder Kaur Tatla
+		</h1>
+	</header>
+
+	<hr>
+
+	<div>
+		
+		<h2>
+			Unit Converter Tool
+		</h2>
+
+		<form>
+			<label>
+				Enter the unit number to be converted: 
+			</label>
+			<input type="text" name="unitNumber" id="unitNumber" autofocus>
+			<input type="reset" name="reset" value="clear" onclick="resetFocus()">
+		</form>
+			
+		
+
+		<div class="converter">
+			<button class="button" onclick="convertCetoFa()">
+				Celsius to Farenheit
+			</button>
+
+			<button class="button" onclick="convertFatoCe()">
+				Farenheit to Celsius
+			</button>
+
+			<button class="button" onclick="convertFetoMe()">
+				Feet to Meters
+			</button>
+
+			<button class="button" onclick="convertMetoFe()">
+				Meters to Feet
+			</button>
+
+			<button class="button" onclick="convertIntoCe()">
+				Inches to Centimeters
+			</button>
+
+			<button class="button" onclick="convertCetoIn()">
+				Centimeters to Inches
+			</button>
+
+			<button class="button" onclick="convertPotoKi()">
+				Pounds to Kilograms
+			</button>
+
+			<button class="button" onclick="convertKitoPo()">
+				Kilograms to Pounds
+			</button>
+		</div>
+
+		<p>Input: <span id="input"></span></p>
+		<p>Output: <span id="output"></span></p>
+	
+	</div>
+
+</body>
+</html>
