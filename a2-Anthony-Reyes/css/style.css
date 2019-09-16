@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Roboto&display=swap');
 
+html{
+	margin: 2.5rem 2.5rem;
+	font-family: 'Roboto';
+	font-size: 1.25rem;
+	color: #3587A4;
+	background-color: #C1DFF0;
+}
 
 header{
 	text-align: center;
-}
-
-body{
-	width: 1200px;
-	margin: 0 auto;
-	font-family: Roboto;
-	background-color: rgb(242, 243, 244);
+	font-family: 'Bangers';
+	color: #2D848A;
+	font-size: 2.5rem;
 }
 
 .button{
 	padding: 10px 25px;
-	background-color: rgb(48, 122, 39);
+	background-color: #3587A4;
+	font-size: 1rem;
 	color: white;
 	text-align: center;
 	cursor: pointer;
-}
-
-.button:hover{
-	background-color: rgb(72, 168, 60);
 }
 
 .converter{
